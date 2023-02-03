@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zodinet interview</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="group-btn">
+        <button class="btn fetch-btn" onclick="fetchPost()">Fetch</button>
+        <div>
+          <div class="group-input">
+            <div class="group-input-item">
+              <label for="user-id">UserId</label>
+              <input id="user-id" />
+            </div>
+            <div class="group-input-item">
+              <label for="title">Title</label>
+              <input id="title" />
+            </div>
+            <div class="group-input-item">
+              <label for="content">Content</label>
+              <input id="content" />
+            </div>
+          </div>
+          <button class="btn create-btn" onclick="createPost()">Create</button>
+        </div>
+      </div>
+      <ul id="post-list">
+        --- Danh sách hiện đang trống ---
+      </ul>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
